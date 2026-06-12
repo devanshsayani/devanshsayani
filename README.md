@@ -2,7 +2,7 @@
   <img src="dist/devansh-snake.svg" alt="Devansh Sayani" width="100%" />
 </p>
 
-<h1 align="center">Hi, I'm Devansh Sayani 👋</h1>
+<h1 align="center"></h1>
 
 <p align="center">
   <!-- add a one-line bio here -->
