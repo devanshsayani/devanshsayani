@@ -1,5 +1,5 @@
 <!-- readme-banner:start -->
-  <img src="dist/devansh-life.svg?v=1781284479191" alt="Devansh Sayani — Game of Life" width="100%" />
+  <img src="dist/devansh-snake.svg?v=1781292164600" alt="Devansh Sayani — Snake reveal" width="100%" />
 <!-- readme-banner:end -->
 
 <h1 align="center">Hi, I'm Devansh Sayani 👋</h1>
