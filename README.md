@@ -2,39 +2,31 @@
   <img src="dist/devansh-terminal.svg?v=1781247074055" alt="Devansh Sayani — Terminal build" width="100%" />
 <!-- readme-banner:end -->
 
-<h1 align="center"></h1>
+<h1 align="center">Hi, I'm Devansh Sayani 👋</h1>
 
 <p align="center">
   <!-- add a one-line bio here -->
 </p>
 
-<p align="center"><i>The banner above rotates hourly between four hand-built SVG animations (snake · life · terminal · constellation). Come back later for a different one.</i></p>
+<p align="center"><i>The banner above rotates hourly — refresh later and you might catch a different one.</i></p>
 
 ---
 
-## 🎞️ The gallery
+<details>
+<summary><b>🎞️ Four banners in rotation</b> (only one shows at a time)</summary>
 
-Swap the `src` in the banner above for any of these. Each one loops forever on its own.
+<br/>
 
-### 🐍 Snake reveal &nbsp;·&nbsp; `dist/devansh-snake.svg`
-A pixel boy runs in, **throws a snake**, and it slithers across a contribution grid revealing my name in green — then he stands by the last letter and **dances** while music notes float up.
+| Piece | What it does |
+| --- | --- |
+| 🐍 **Snake** | A pixel boy throws a snake; it slithers across a contribution grid and reveals my name, then he dances by the final letter. |
+| 🧬 **Game of Life** | Random cells evolve under Conway's rules, then lock into my name, hold, and dissolve. |
+| 🖥️ **Terminal** | A retro shell types a git command, runs a build, and renders my name as a green banner. |
+| ✨ **Constellation** | Stars twinkle in and connect into my name under a drifting night sky. |
 
-<p align="center"><img src="dist/devansh-snake.svg" alt="Snake reveal" width="100%"/></p>
+Preview all four locally: `npm run preview` → opens `dist/gallery.html`.
 
-### 🧬 Game of Life &nbsp;·&nbsp; `dist/devansh-life.svg`
-A random **soup of cells** evolves under Conway's real B3/S23 rules, boils for a few dozen generations, then **locks itself into my name**, holds, dissolves, and loops.
-
-<p align="center"><img src="dist/devansh-life.svg" alt="Conway's Game of Life" width="100%"/></p>
-
-### 🖥️ Terminal build &nbsp;·&nbsp; `dist/devansh-terminal.svg`
-A retro shell **types** `git show --render=profile`, runs a build with a progress bar, and **renders my name** as a green contribution banner — complete with a blinking typewriter cursor.
-
-<p align="center"><img src="dist/devansh-terminal.svg" alt="Terminal build" width="100%"/></p>
-
-### ✨ Constellation &nbsp;·&nbsp; `dist/devansh-constellation.svg`
-My name as a **star map**: each pixel is a star that twinkles in, neighbouring stars connect into letters with lines that **draw themselves on**, over a drifting field with a periodic shooting star.
-
-<p align="center"><img src="dist/devansh-constellation.svg" alt="Constellation" width="100%"/></p>
+</details>
 
 ---
 
