@@ -2,9 +2,8 @@ name: Rotate profile banner
 
 on:
   schedule:
-    # Pick a new banner every hour (GitHub caches README images, so this is the
-    # practical way to keep the profile feeling fresh).
-    - cron: "17 * * * *"
+    # Pick a new banner every 5 minutes (fastest reliable GitHub Actions interval).
+    - cron: "*/5 * * * *"
   workflow_dispatch:
 
 permissions:

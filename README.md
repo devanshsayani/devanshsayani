@@ -8,7 +8,7 @@
   <!-- add a one-line bio here -->
 </p>
 
-<p align="center"><i>The banner above rotates hourly — refresh later and you might catch a different one.</i></p>
+<p align="center"><i>The banner above rotates every 5 minutes — refresh later and you might catch a different one.</i></p>
 
 ---
 
