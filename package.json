@@ -1,0 +1,15 @@
+{
+  "name": "readme-art",
+  "version": "2.0.0",
+  "description": "A gallery of unique self-animating SVGs for a GitHub profile README — a pixel boy throwing a snake, Conway's Game of Life freezing into your name, a typewriter terminal, and your name as a constellation. Pure SVG + CSS/SMIL, no JS at runtime.",
+  "type": "module",
+  "scripts": {
+    "snake": "node src/generate.js",
+    "life": "node src/conway.js",
+    "terminal": "node src/terminal.js",
+    "constellation": "node src/constellation.js",
+    "build": "node src/build-all.js",
+    "preview": "node src/build-all.js && open dist/gallery.html"
+  },
+  "license": "MIT"
+}
