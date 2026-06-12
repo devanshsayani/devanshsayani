@@ -1,0 +1,36 @@
+name: Rotate profile banner
+
+on:
+  schedule:
+    # Pick a new banner every hour (GitHub caches README images, so this is the
+    # practical way to keep the profile feeling fresh).
+    - cron: "17 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  rotate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Pick a random banner
+        run: node src/rotate-readme.js
+
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet README.md; then
+            echo "No banner change needed."
+            exit 0
+          fi
+          git add README.md
+          git commit -m "Rotate profile banner [skip ci]"
+          git push

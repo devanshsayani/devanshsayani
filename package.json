@@ -9,7 +9,8 @@
     "terminal": "node src/terminal.js",
     "constellation": "node src/constellation.js",
     "build": "node src/build-all.js",
-    "preview": "node src/build-all.js && open dist/gallery.html"
+    "preview": "node src/build-all.js && open dist/gallery.html",
+    "rotate": "node src/rotate-readme.js"
   },
   "license": "MIT"
 }
