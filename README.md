@@ -1,5 +1,5 @@
 <!-- readme-banner:start -->
-  <img src="dist/devansh-terminal.svg?v=1783378336748" alt="Devansh Sayani — Terminal build" width="100%" />
+  <img src="dist/devansh-snake.svg?v=1783381975737" alt="Devansh Sayani — Snake reveal" width="100%" />
 <!-- readme-banner:end -->
 
 <h1 align="center">Hi, I'm Devansh Sayani 👋</h1>
